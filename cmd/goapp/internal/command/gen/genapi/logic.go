@@ -19,7 +19,7 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/format"
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 type LogicFile struct {

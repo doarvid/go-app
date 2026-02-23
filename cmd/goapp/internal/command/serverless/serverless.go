@@ -7,10 +7,10 @@ package serverless
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/serverless/serverlessbuild"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/serverless/serverlessdelete"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/serverless/serverlessbuild"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/serverless/serverlessdelete"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
 )
 
 // serverlessCmd represents the serverless command

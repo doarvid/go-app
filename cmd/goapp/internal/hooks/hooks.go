@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/logx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/execx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/execx"
 )
 
 func Run(cmd *cobra.Command, hookAction, hooksName string, hooks []string) error {

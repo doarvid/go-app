@@ -13,14 +13,14 @@ import (
 	rpcparser "github.com/zeromicro/go-zero/tools/goctl/rpc/parser"
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/genapi"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/genmodel"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/genmongo"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/genrpc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/mod"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/genapi"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/genmodel"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/genmongo"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/genrpc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/mod"
 )
 
 func Run() error {

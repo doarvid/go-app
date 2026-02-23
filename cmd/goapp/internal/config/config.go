@@ -21,7 +21,7 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"gopkg.in/yaml.v3"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/hooks"
+	"github.com/doarvid/go-app/cmd/goapp/internal/hooks"
 )
 
 // C global command flags

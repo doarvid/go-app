@@ -20,8 +20,8 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/mod"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/mod"
 )
 
 type LogicFile struct {

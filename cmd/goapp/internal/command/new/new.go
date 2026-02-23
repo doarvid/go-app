@@ -28,16 +28,16 @@ import (
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/check"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/gen"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/hooks"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/filex"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/mod"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/templatex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/check"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/gen"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/hooks"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/filex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/mod"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/templatex"
 )
 
 func IsBase64(base64 string) bool {

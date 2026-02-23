@@ -16,11 +16,11 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	jzerodesc "github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/templatex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	jzerodesc "github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/templatex"
 )
 
 type JzeroProtoApiMiddleware struct {

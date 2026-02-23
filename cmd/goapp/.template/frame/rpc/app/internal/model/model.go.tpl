@@ -4,7 +4,7 @@ package model
 
 import (
 	"github.com/eddieowens/opts"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/doarvid/go-app/core/stores/modelx"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 

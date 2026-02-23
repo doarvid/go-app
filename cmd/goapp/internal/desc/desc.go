@@ -17,7 +17,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 func GetFrameType() (string, error) {

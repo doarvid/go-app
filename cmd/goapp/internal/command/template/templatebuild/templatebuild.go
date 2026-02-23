@@ -17,8 +17,8 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"golang.org/x/mod/modfile"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
 )
 
 func checkWrite(path string, bytes []byte) error {

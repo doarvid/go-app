@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/eddieowens/opts"
-	"github.com/jzero-io/jzero/core/stores/monx"
+	"github.com/doarvid/go-app/core/stores/monx"
 )
 
 const {{.Type}}CollectionName = "{{.snakeType}}"

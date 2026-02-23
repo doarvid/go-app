@@ -19,14 +19,14 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	jzerodesc "github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/dsn"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/filex"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/gitstatus"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/osx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	jzerodesc "github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/dsn"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/filex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/gitstatus"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/osx"
 )
 
 type JzeroModel struct {

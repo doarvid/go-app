@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/jzero-io/jzero/core/configcenter"
-	{{ if has "model" .Features }}"github.com/jzero-io/jzero/core/stores/modelx"{{ end }}
+	"github.com/doarvid/go-app/core/configcenter"
+	{{ if has "model" .Features }}"github.com/doarvid/go-app/core/stores/modelx"{{ end }}
 	{{ if has "redis" .Features }}"github.com/zeromicro/go-zero/core/stores/redis"{{ end }}
 	{{ if has "cache" .Features }}"github.com/zeromicro/go-zero/core/stores/cache"
 	"github.com/zeromicro/go-zero/core/syncx"{{ end }}

@@ -7,7 +7,7 @@ package format
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/format/formatgo"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/format/formatgo"
 )
 
 // formatCmd represents the format command

@@ -1,4 +1,4 @@
-module github.com/jzero-io/jzero
+module github.com/doarvid/go-app
 
 go 1.24.3
 

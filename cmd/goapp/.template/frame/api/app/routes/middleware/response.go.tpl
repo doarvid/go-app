@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/jzero-io/jzero/core/status"
+	"github.com/doarvid/go-app/core/status"
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 	"github.com/zeromicro/go-zero/core/logx"

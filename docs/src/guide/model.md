@@ -68,7 +68,7 @@ import (
 	"github.com/jzero-io/jzero-admin/server/internal/model/manage_role_menu"
 	"github.com/jzero-io/jzero-admin/server/internal/model/manage_user"
 	"github.com/jzero-io/jzero-admin/server/internal/model/manage_user_role"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/doarvid/go-app/core/stores/modelx"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 
@@ -122,7 +122,7 @@ package model
 
 import (
 	"github.com/eddieowens/opts"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/doarvid/go-app/core/stores/modelx"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 	
 	"github.com/jzero-io/jzero-admin/server/internal/model/jzero-admin_log/operate_log"

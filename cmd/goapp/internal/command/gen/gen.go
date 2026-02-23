@@ -13,11 +13,11 @@ import (
 	"github.com/rinchsan/gosimports"
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/gen"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/genswagger"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/gen/genzrpcclient"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/mod"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/gen"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/genswagger"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/gen/genzrpcclient"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/mod"
 )
 
 // genCmd represents the gen command

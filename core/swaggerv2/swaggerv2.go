@@ -9,7 +9,7 @@ import (
 	"github.com/eddieowens/opts"
 	"github.com/zeromicro/go-zero/rest"
 
-	"github.com/jzero-io/jzero/core/templatex"
+	"github.com/doarvid/go-app/core/templatex"
 )
 
 const defaultSwaggerTemplate = `

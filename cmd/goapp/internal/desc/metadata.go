@@ -15,7 +15,7 @@ import (
 	rpcparser "github.com/zeromicro/go-zero/tools/goctl/rpc/parser"
 	"github.com/zeromicro/go-zero/tools/goctl/util/format"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 const (

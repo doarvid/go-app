@@ -3,7 +3,7 @@
 package mongo
 
 import (
-	"github.com/jzero-io/jzero/core/stores/monx"
+	"github.com/doarvid/go-app/core/stores/monx"
     "github.com/eddieowens/opts"
 
 	{{range $v := .ImportsWithAlias}}{{if $v.Alias}}{{$v.Alias}}{{end}} "{{$v.Path}}"

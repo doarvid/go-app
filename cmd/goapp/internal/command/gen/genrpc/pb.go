@@ -9,8 +9,8 @@ import (
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/tools/goctl/rpc/execx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	jzerodesc "github.com/jzero-io/jzero/cmd/jzero/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	jzerodesc "github.com/doarvid/go-app/cmd/goapp/internal/desc"
 )
 
 func (jr *JzeroRpc) genNoRpcServiceExcludeThirdPartyProto(protoDirPath string) error {

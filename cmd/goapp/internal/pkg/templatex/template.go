@@ -3,9 +3,9 @@ package templatex
 import (
 	"strings"
 
-	"github.com/jzero-io/jzero/core/templatex"
+	"github.com/doarvid/go-app/core/templatex"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 // ParseTemplate template

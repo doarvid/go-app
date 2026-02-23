@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/filex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/filex"
 )
 
 type Plugin struct {

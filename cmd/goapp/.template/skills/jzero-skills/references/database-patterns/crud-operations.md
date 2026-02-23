@@ -98,7 +98,7 @@ func (l *Get) Get(req *types.GetRequest) (*types.GetResponse, error) {
 
 ```go
 import (
-    "github.com/jzero-io/jzero/core/stores/condition"
+    "github.com/doarvid/go-app/core/stores/condition"
     usersmodel "github.com/yourproject/internal/model/users"
 )
 
@@ -176,7 +176,7 @@ _, err := l.svcCtx.Model.Users.UpdateFieldsByCondition(l.ctx, nil, updateData, c
 
 ```go
 import (
-    "github.com/jzero-io/jzero/core/stores/condition"
+    "github.com/doarvid/go-app/core/stores/condition"
     usersmodel "github.com/yourproject/internal/model/users"
 )
 
@@ -204,7 +204,7 @@ func (l *Update) Update(req *types.UpdateRequest) error {
 
 ```go
 import (
-    "github.com/jzero-io/jzero/core/stores/condition"
+    "github.com/doarvid/go-app/core/stores/condition"
     usersmodel "github.com/yourproject/internal/model/users"
 )
 
@@ -236,7 +236,7 @@ func (l *Update) Update(req *types.UpdateRequest) error {
 
 ```go
 import (
-    "github.com/jzero-io/jzero/core/stores/condition"
+    "github.com/doarvid/go-app/core/stores/condition"
     usersmodel "github.com/yourproject/internal/model/users"
 )
 
@@ -265,7 +265,7 @@ Only write custom SQL for complex queries that generated methods can't handle:
 
 ```go
 import (
-    "github.com/jzero-io/jzero/core/stores/condition"
+    "github.com/doarvid/go-app/core/stores/condition"
     ordersmodel "github.com/yourproject/internal/model/orders"
     "github.com/zeromicro/go-zero/core/stores/sqlx"
 )

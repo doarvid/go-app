@@ -20,9 +20,9 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/env"
 	"github.com/zeromicro/go-zero/tools/goctl/util/zipx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
 )
 
 var toolVersionCheck = map[string]string{

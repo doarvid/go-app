@@ -13,10 +13,10 @@ import (
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/migrate/migratedown"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/migrate/migrategoto"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/migrate/migrateup"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/migrate/migrateversion"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/migrate/migratedown"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/migrate/migrategoto"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/migrate/migrateup"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/migrate/migrateversion"
 )
 
 // migrateCmd represents the migrate command

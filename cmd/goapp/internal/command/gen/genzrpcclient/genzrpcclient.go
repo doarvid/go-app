@@ -19,13 +19,13 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/mod"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/osx"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/templatex"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/plugin"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/mod"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/osx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/templatex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/plugin"
 )
 
 type DirContext struct {

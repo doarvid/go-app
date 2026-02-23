@@ -3,11 +3,11 @@ package migratedown
 import (
 	"errors"
 
-	"github.com/jzero-io/jzero/core/stores/migrate"
+	"github.com/doarvid/go-app/core/stores/migrate"
 	"github.com/spf13/cast"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 func Run(args []string) error {

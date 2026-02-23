@@ -19,9 +19,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/doarvid/go-app/core/configcenter"
+	"github.com/doarvid/go-app/core/configcenter/subscriber"
+	"github.com/doarvid/go-app/core/stores/modelx"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 

@@ -14,13 +14,13 @@ import (
 	goctlconsole "github.com/zeromicro/go-zero/tools/goctl/util/console"
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	jzerodesc "github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/console"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/filex"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/gitstatus"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/osx"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/stringx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	jzerodesc "github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/console"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/filex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/gitstatus"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/osx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/stringx"
 )
 
 type JzeroRpc struct {

@@ -1,7 +1,7 @@
 package {{.pkg}}
 import (
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/doarvid/go-app/core/stores/modelx"
 	"github.com/eddieowens/opts"
 )
 

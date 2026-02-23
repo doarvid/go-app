@@ -130,9 +130,9 @@ Initialize the database connection in `internal/svc/servicecontext.go`:
 package svc
 
 import (
-    "github.com/jzero-io/jzero/core/configcenter"
-    "github.com/jzero-io/jzero/core/stores/modelx"
-    "github.com/jzero-io/jzero/core/stores/cache"
+    "github.com/doarvid/go-app/core/configcenter"
+    "github.com/doarvid/go-app/core/stores/modelx"
+    "github.com/doarvid/go-app/core/stores/cache"
     "github.com/zeromicro/go-zero/core/stores/redis"
     "github.com/zeromicro/go-zero/core/stores/sqlx"
     "your-project/internal/config"

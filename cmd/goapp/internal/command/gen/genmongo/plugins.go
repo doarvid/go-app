@@ -11,8 +11,8 @@ import (
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/templatex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/templatex"
 )
 
 type ImportWithAlias struct {

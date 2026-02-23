@@ -2,9 +2,9 @@ package cmd
 
 import (
 	"github.com/common-nighthawk/go-figure"
-    "github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"{{ if has "model" .Features }}
-	"github.com/jzero-io/jzero/core/stores/migrate"{{end}}
+    "github.com/doarvid/go-app/core/configcenter"
+	"github.com/doarvid/go-app/core/configcenter/subscriber"{{ if has "model" .Features }}
+	"github.com/doarvid/go-app/core/stores/migrate"{{end}}
 	"github.com/spf13/cobra"
     "github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/core/service"

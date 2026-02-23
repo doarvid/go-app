@@ -3,9 +3,9 @@ package add
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/add/addapi"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/add/addproto"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/add/addsql"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/add/addapi"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/add/addproto"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/add/addsql"
 )
 
 // addCmd represents the add command

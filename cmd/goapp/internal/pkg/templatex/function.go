@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/go-version"
 	"github.com/zeromicro/go-zero/tools/goctl/util/format"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/stringx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/stringx"
 )
 
 var registerFuncMap = []template.FuncMap{

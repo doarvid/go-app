@@ -3,9 +3,9 @@
 import (
 	"path/filepath"
 
-    "github.com/jzero-io/jzero/core/configcenter"
+    "github.com/doarvid/go-app/core/configcenter"
 	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"
+	"github.com/doarvid/go-app/core/configcenter/subscriber"
 	"google.golang.org/grpc"
 
 	"{{ .Module }}/internal/config"

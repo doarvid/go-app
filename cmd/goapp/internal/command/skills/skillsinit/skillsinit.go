@@ -3,8 +3,8 @@ package skillsinit
 import (
 	"fmt"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
 )
 
 func Run() error {

@@ -15,7 +15,7 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util"
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/templatex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/templatex"
 )
 
 func (ja *JzeroApi) separateTypesGo(apiFiles []string, apiSpecMap map[string]*spec.ApiSpec) error {

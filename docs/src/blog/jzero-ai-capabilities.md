@@ -292,7 +292,7 @@ import (
     "net/http"
 
     "github.com/pkg/errors"
-    "github.com/jzero-io/jzero/core/stores/condition"
+    "github.com/doarvid/go-app/core/stores/condition"
     usermodel "github.com/yourproject/internal/model/user"
     "github.com/zeromicro/go-zero/core/logx"
     "golang.org/x/crypto/bcrypt"

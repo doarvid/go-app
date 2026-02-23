@@ -18,12 +18,12 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/desc"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/osx"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/stringx"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/plugin"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/desc"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/osx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/stringx"
+	"github.com/doarvid/go-app/cmd/goapp/internal/plugin"
 )
 
 func Gen() (err error) {

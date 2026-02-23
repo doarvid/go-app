@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/tools/goctl/pkg/golang"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 var upgradeCmd = &cobra.Command{
@@ -20,9 +20,9 @@ var upgradeCmd = &cobra.Command{
 	RunE: func(cmd *cobra.Command, args []string) error {
 		switch config.C.Upgrade.Channel {
 		case "stable":
-			return golang.Install("github.com/jzero-io/jzero/cmd/jzero@latest")
+			return golang.Install("github.com/doarvid/go-app/cmd/goapp@latest")
 		default:
-			return golang.Install(fmt.Sprintf("github.com/jzero-io/jzero/cmd/jzero@%s", config.C.Upgrade.Channel))
+			return golang.Install(fmt.Sprintf("github.com/doarvid/go-app/cmd/goapp@%s", config.C.Upgrade.Channel))
 		}
 	},
 }

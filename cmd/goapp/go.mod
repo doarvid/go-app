@@ -1,4 +1,4 @@
-module github.com/jzero-io/jzero/cmd/jzero
+module github.com/doarvid/go-app/cmd/goapp
 
 go 1.24.3
 

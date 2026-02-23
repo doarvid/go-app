@@ -19,9 +19,9 @@ migrate 组件默认读取 desc/sql_migration 下的 sql 文件, 管理 sql.
 package main
 
 import (
-	"github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"
-	"github.com/jzero-io/jzero/core/stores/migrate"
+	"github.com/doarvid/go-app/core/configcenter"
+	"github.com/doarvid/go-app/core/configcenter/subscriber"
+	"github.com/doarvid/go-app/core/stores/migrate"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 
@@ -107,9 +107,9 @@ migrate 增加可选参数 `WithSourceAppendDriver`:
 package main
 
 import (
-	"github.com/jzero-io/jzero/core/configcenter"
-	"github.com/jzero-io/jzero/core/configcenter/subscriber"
-	"github.com/jzero-io/jzero/core/stores/migrate"
+	"github.com/doarvid/go-app/core/configcenter"
+	"github.com/doarvid/go-app/core/configcenter/subscriber"
+	"github.com/doarvid/go-app/core/stores/migrate"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 )
 

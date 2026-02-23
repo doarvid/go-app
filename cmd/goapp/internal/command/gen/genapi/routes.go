@@ -16,10 +16,10 @@ import (
 	"github.com/zeromicro/go-zero/tools/goctl/pkg/golang"
 	"github.com/zeromicro/go-zero/tools/goctl/util"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/embeded"
-	jgogen "github.com/jzero-io/jzero/cmd/jzero/internal/pkg/gogen"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/pkg/templatex"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/embeded"
+	jgogen "github.com/doarvid/go-app/cmd/goapp/internal/pkg/gogen"
+	"github.com/doarvid/go-app/cmd/goapp/internal/pkg/templatex"
 )
 
 func (ja *JzeroApi) getRoutesGoBody(fp string, apiSpecMap map[string]*spec.ApiSpec, currentRoutesMap map[string][]spec.Route) (string, error) {

@@ -8,8 +8,8 @@ import (
 	"github.com/zeromicro/go-zero/core/stores/sqlc"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/jzero-io/jzero/core/stores/condition"
-	"github.com/jzero-io/jzero/core/stores/modelx"
+	"github.com/doarvid/go-app/core/stores/condition"
+	"github.com/doarvid/go-app/core/stores/modelx"
 	"github.com/spf13/cast"
     "github.com/eddieowens/opts"
 

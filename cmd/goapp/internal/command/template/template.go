@@ -11,10 +11,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/template/templatebuild"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/template/templateinit"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/version"
-	"github.com/jzero-io/jzero/cmd/jzero/internal/config"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/template/templatebuild"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/template/templateinit"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/version"
+	"github.com/doarvid/go-app/cmd/goapp/internal/config"
 )
 
 // templateCmd represents the template command

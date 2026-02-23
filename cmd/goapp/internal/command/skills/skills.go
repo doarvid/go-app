@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/jzero-io/jzero/cmd/jzero/internal/command/skills/skillsinit"
+	"github.com/doarvid/go-app/cmd/goapp/internal/command/skills/skillsinit"
 )
 
 // skillsCmd represents the skills command
